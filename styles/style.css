@@ -108,7 +108,7 @@
 }
 
 
-.header__theme-menu-button {        
+.header__theme-menu-button {
   border: 1px solid transparent;
   padding: 4px 13px;
   color: var(--nav-color);
@@ -353,7 +353,7 @@
 
 
   .section--factors .section__title {
-    max-width: 200px; 
+    max-width: 200px;
     white-space: normal;
   }
 
