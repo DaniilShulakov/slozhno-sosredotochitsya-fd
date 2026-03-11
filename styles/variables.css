@@ -2,3 +2,44 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  /* Основные цвета (темная тема) */
+  --accent-color: #ff0070;
+  --accent-color-with-opacity: rgba(255, 0, 112, 0.4);
+  --text-color: #f1b2ce;
+  --title-color: #db00ff;
+  --title-shadow: #ff0070;
+  --decor-color: #ff0070;
+  --bg-color: #000028;
+  --nav-color: #ff0070;
+  --nav-hover-color: rgba(255, 0, 112, 0.4);
+  --link-hover-color: #f1b2ce;
+  --link-focus-color: #f1b2ce;
+  --button-active-border: #ff0070;
+  
+
+  /* Фон */
+  --bg-image: url('../images/cover-image-dark.png');
+  
+
+  /* Отображение REC */
+  --rec-display: flex;
+  
+
+  /* Шрифты */
+  --main-font: 'IBM Plex Mono', monospace;
+  --main-font-size: 18px;
+  --main-line-height: 23.4px;
+  
+
+  /* Отступы */
+  --page-padding: 10px;
+  --section-gap: 40px;
+  --content-gap: 20px;
+  
+  
+  /* Размеры заголовков */
+  --title-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+}
+
