@@ -190,7 +190,7 @@
 
 
 .section__title {
-  color: var(--accent-color);
+  color: var(--section-title-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -461,16 +461,6 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-  }
-
-  
-  .section--cause .card:nth-child(1) {
-    order: 1;
-  }
-  
-
-  .section--cause .card:nth-child(2) {
-    order: 2;
   }
 
 
