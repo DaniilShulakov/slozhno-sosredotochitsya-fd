@@ -11,12 +11,13 @@
   */
 :root.theme-light {
   --accent-color: rgba(255, 141, 203, 1);
+  --section-title-color: rgba(53, 52, 48, 1);
   --accent-color-with-opacity: rgba(53, 52, 48, 0.4);
   --text-color: rgba(53, 52, 48, 1);
   --title-color: rgba(255, 194, 230, 1);
   --title-shadow: rgba(255, 141, 203, 1);
   --decor-color: rgba(53, 52, 48, 1);
-  --bg-color: rgba(255, 241, 247, 1);
+  --bg-color: rgba(53, 52, 48, 1);
   --nav-color: rgba(53, 52, 48, 1);
   --nav-hover-color: rgba(53, 52, 48, 0.4);
   --link-hover-color: rgba(53, 52, 48, 1);
@@ -30,12 +31,13 @@
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: rgba(255, 141, 203, 1);
+    --section-title-color: rgba(53, 52, 48, 1);
     --accent-color-with-opacity: rgba(53, 52, 48, 0.4);
     --text-color: rgba(53, 52, 48, 1);
     --title-color: rgba(255, 194, 230, 1);
     --title-shadow: rgba(255, 141, 203, 1);
     --decor-color: rgba(53, 52, 48, 1);
-    --bg-color: rgba(255, 241, 247, 1);
+    --bg-color: rgba(53, 52, 48, 1);
     --nav-color: rgba(53, 52, 48, 1);
     --nav-hover-color: rgba(53, 52, 48, 0.4);
     --link-hover-color: rgba(53, 52, 48, 1);
