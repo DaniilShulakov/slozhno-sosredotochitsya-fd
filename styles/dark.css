@@ -9,6 +9,7 @@
   */
 
 :root.theme-dark {
+  --page-color: rgba(0, 0, 40, 1);
   --accent-color: rgba(255, 0, 112, 1);
   --section-title-color: rgba(255, 0, 112, 1);
   --accent-color-with-opacity: rgba(255, 0, 112, 0.4);
@@ -30,6 +31,7 @@
 /* Темная тема по умолчанию через prefers-color-scheme */
 @media (prefers-color-scheme: dark) {
   :root {
+    --page-color: rgba(0, 0, 40, 1);
     --accent-color: rgba(255, 0, 112, 1);
     --section-title-color: rgba(255, 0, 112, 1);
     --accent-color-with-opacity: rgba(255, 0, 112, 0.4);

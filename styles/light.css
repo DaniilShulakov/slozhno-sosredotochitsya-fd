@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 :root.theme-light {
+  --page-color: rgba(255, 241, 247, 1);
   --accent-color: rgba(255, 141, 203, 1);
   --section-title-color: rgba(53, 52, 48, 1);
   --accent-color-with-opacity: rgba(53, 52, 48, 0.4);
@@ -30,6 +31,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
+    --page-color: rgba(255, 241, 247, 1);
     --accent-color: rgba(255, 141, 203, 1);
     --section-title-color: rgba(53, 52, 48, 1);
     --accent-color-with-opacity: rgba(53, 52, 48, 0.4);
