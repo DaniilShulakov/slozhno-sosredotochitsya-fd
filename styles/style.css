@@ -554,4 +554,10 @@
   .gallery__image--street {
     grid-column: 2 / span 2;
   }
+  .main {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
 }
